@@ -186,7 +186,7 @@ namespace DinoProxy
                 this.AddListItem(String.Format("WARNING: Multiple IP addresses found: {0}", String.Join(" ,", ips)));
             }
 
-            this.AddListItem(String.Format("Set your DNS address on your phone to {0} (Settings->WiFi->Static IP->DNS)", ips.First()));
+            this.AddListItem(String.Format("Set the DNS address on your device to {0}", ips.First()));
         }
 
         private void button1_Click(object sender, EventArgs e)
