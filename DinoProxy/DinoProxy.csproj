@@ -52,8 +52,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>
-    </ApplicationIcon>
+    <ApplicationIcon>DinoProxy.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>DinoProxy.Program</StartupObject>
@@ -132,6 +131,9 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Libraries\ARSoft.Tools.Net.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DinoProxy.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
